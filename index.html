@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXBwajU5ZjgxYXloMWZsZzhjNGJmNXFzN3V3ZHd6anlscG5yYjkxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zTQQPJXn1j8Jy/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            width: 80%;
+            background: white;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-top: 5px solid #ff4081;
+        }
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #d81b60;
+        }
+        h2 {
+            border-bottom: 3px solid #ff4081;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: left;
+            color: #ff4081;
+            font-size: 24px;
+        }
+        ol {
+            padding-left: 20px;
+            text-align: left;
+        }
+        ol li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #ff80ab;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #ffb3c6;
+        }
+        form {
+            margin-top: 20px;
+            text-align: left;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ff80ab;
+            border-radius: 5px;
+        }
+        button {
+            background: linear-gradient(45deg, #ff4081, #d81b60);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #ff1e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Laporan Praktikum</h1>
+        <h2>Soal Laporan Teori</h2>
+        <ol>
+            <li>Apa yang dimaksud dengan tag pada HTML?</li>
+            <li>Apa itu pembuka dan penutup tag?</li>
+            <li>Apa yang dimaksud dengan elemen?</li>
+        </ol>
+        
+        <h2>Teman Favorit</h2>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Neisya Adila F</td>
+                <td>202332036</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Violetta Jingga</td>
+                <td>202332028</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Thaheera Heiza S</td>
+                <td>202332041</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>M. Irawan Siswanto</td>
+                <td>202332064</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Aulia Yasmin</td>
+                <td>202332081</td>
+            </tr>
+        </table>
+        
+        <h2>Form Data Mahasiswa</h2>
+        <form action="gif.html" method="GET">
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+            <label>NIM:</label>
+            <input type="text" name="nim" required>
+            <label>Jurusan:</label>
+            <input type="text" name="jurusan" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
